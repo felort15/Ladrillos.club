@@ -1,18 +1,8 @@
-   h1 {
-    font-size: 2rem;
-    color: #db2424;
-    margin-bottom: 0;   
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;    
 
-h2 {
-    font-size: 1.5rem;
-    color: #1dc2b4;
-    margin-bottom: 0;   
-}
 
-p {
-    font-size: 1.2rem;
-    color: #000;
-    margin-bottom: 0;   
-}   
+
+
 
