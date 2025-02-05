@@ -11,3 +11,8 @@ const products = defineCollection({
         category: z.string(),
     }),
 });
+
+export const collections = {
+    products,
+};
+
