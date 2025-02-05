@@ -4,7 +4,12 @@ export default {
         "./src/**/*.{astro,html,js,jsx,ts,tsx,vue,svelte}"
     ],
     theme: {
-        extend: {},
+        extend: {
+            colors: {
+                primary: "#1dc2b4",
+                secondary: "#db2424",
+            },
+        },
     },
     plugins: [],    
 }
