@@ -1,0 +1,31 @@
+---
+interface Props {
+  title: string;
+  price: number;
+  published: string;
+  image: string;
+}
+
+const { title, price, published, image } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>{title}</title>
+    </head>
+    <body>
+        <main class="max-w-4xl mx-auto px-4 prose prose-lg">
+          <h2>{title}</h2>
+          <span>{price}</span>
+          <span>{published}</span>
+          <div>
+            <img src={image} alt={title} />
+          </div>
+          <div>
+            <slot />
+          </div>
+    </body>
+</html>
