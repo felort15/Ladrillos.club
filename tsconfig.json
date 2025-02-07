@@ -10,6 +10,13 @@
   "compilerOptions": {
     "jsx": "react-jsx",
     "jsxImportSource": "react",
-    "types": ["vitest/globals"]
+    "types": ["vitest/globals"],
+    "paths": {
+      "@layouts/*": ["./src/layouts/*"],
+      "@components/*": ["./src/components/*"],
+      "@content/*": ["./src/content/*"],
+      "@about/*": ["./src/pages/about.astro"],
+      "@index/*": ["./src/pages/index.astro"]
+    }
   }
 }
