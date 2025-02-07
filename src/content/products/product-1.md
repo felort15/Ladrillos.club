@@ -1,18 +1,18 @@
 ---
-title: "Product 1"
+title: "Spiderman Lego"
 description: "This is product 1"
-price: 99.99
+price: 99.15
 published: "2024-02-06"
-heroImage: "/images/product1.jpg"
+heroImage: "https://i.ibb.co/tKWqw8J/spiderman.png"
 ---
 
 This is the content of product 1.
 
-# LEGO Space Shuttle
+# LEGO Spiderman action figure
 
-The LEGO Space Shuttle is a great toy for children. It is a replica of the real Space Shuttle.
+The LEGO Spiderman action figure is a great toy for children. It is a replica of the real Spiderman action figure.
 
-![LEGO Space Shuttle](/images/product1.jpg)
+![LEGO Spiderman action figure  ](/images/product1.jpg)
 
 ## Features
 

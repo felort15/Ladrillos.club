@@ -9,10 +9,14 @@ const products = await getCollection('products');
   <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
     {products.map(product => (
       <a href={`/products/${product.id}`} class="block">
-        <div class="border rounded p-4">
-          <img src={product.data.heroImage} alt={product.data.title} />
-          <h2>{product.data.title}</h2>
-          <p>${product.data.price}</p>
+        <div class="border rounded p-4 bg-gradient-to-r from-yellow-200 to-green-200 hover:shadow-lg transition-all">
+          <img 
+            src={product.data.heroImage} 
+            alt={product.data.title} 
+            class="w-full h-48 object-contain transform transition-transform duration-300 hover:scale-110" 
+          />
+          <h2 class="text-xl font-bold mt-2">{product.data.title}</h2>
+          <p class="text-lg font-semibold text-green-700">${product.data.price}</p>
         </div>
       </a>
     ))}
