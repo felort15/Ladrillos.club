@@ -8,5 +8,9 @@ import mdx from '@astrojs/mdx';
 export default defineConfig({
   site: 'https://felort15.github.io',
   base: '/Ladrillos.club',
+  output: 'static',
+  build: {
+    assets: '_assets'
+  },
   integrations: [tailwind(), react(), mdx()]
 });
