@@ -61,4 +61,5 @@ By strategically implementing AI, companies can unlock significant growth, effic
 
 <iframe width="560" height="315" class="mx-auto" src="https://www.youtube.com/embed/egx-GzXkVM0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-  <p class="text-xs text-teal-500 text-center text-center">&copy; 2025. Astro-class on platzis. All rights reserved.</p>
+  <p class="text-xs text-teal-500 text-center text-center">&copy; 2025. Astro class felort15
+  . All rights reserved.</p>
