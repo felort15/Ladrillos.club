@@ -6,7 +6,7 @@ import mdx from '@astrojs/mdx';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://yourusername.github.io',  // Replace with your GitHub username
-  base: '/Ladrillos.club',  // Replace with your repository name
+  site: 'https://felort15.github.io',
+  base: '/Ladrillos.club',
   integrations: [tailwind(), react(), mdx()]
 });
